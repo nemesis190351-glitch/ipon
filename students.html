@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ข้อมูลนักเรียนและนักศึกษา">
+    <title>นักเรียน นักศึกษา - สถานศึกษาชั้นนำ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">🎓</div>
+                    <div class="school-info">
+                        <h1>วิทยาลัยเทคโนโลยีชั้นนำ</h1>
+                        <p>Leading Technology College</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html">หน้าหลัก</a></li>
+                <li><a href="administrators.html">ผู้บริหาร</a></li>
+                <li><a href="personnel.html">บุคลากร</a></li>
+                <li><a href="students.html" class="active">นักเรียน นักศึกษา</a></li>
+                <li><a href="programs.html">สาขาวิชา</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <h2 class="page-title">🎓 นักเรียน นักศึกษา</h2>
+
+            <!-- สถิตินักเรียน -->
+            <h3 class="text-center" style="color: #1e3c72; font-size: 28px; margin-bottom: 30px;">📊 จำนวนนักเรียน นักศึกษา ประจำปีการศึกษา 2567</h3>
+            
+            <div class="statistics">
+                <div class="stat-box">
+                    <div class="number" data-target="450">0</div>
+                    <div class="label">ปวช. ทั้งหมด</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number" data-target="750">0</div>
+                    <div class="label">ปวส. ทั้งหมด</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number" data-target="1200">0</div>
+                    <div class="label">รวมทั้งสิ้น</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number" data-target="95">0</div>
+                    <div class="label">% อัตราการมีงานทำ</div>
+                </div>
+            </div>
+
+            <!-- จำนวนนักเรียนแต่ละสาขา -->
+            <div style="margin: 50px 0;">
+                <h3 class="text-center" style="color: #1e3c72; font-size: 24px; margin-bottom: 25px;">📈 จำนวนนักเรียนแยกตามสาขาวิชา</h3>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>สาขาวิชา</th>
+                            <th style="text-align: center;">ปวช.</th>
+                            <th style="text-align: center;">ปวส.</th>
+                            <th style="text-align: center;">รวม</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>💻 คอมพิวเตอร์ธุรกิจ</td>
+                            <td style="text-align: center;">85</td>
+                            <td style="text-align: center;">120</td>
+                            <td style="text-align: center;"><strong>205</strong></td>
+                        </tr>
+                        <tr>
+                            <td>⚡ ช่างไฟฟ้ากำลัง</td>
+                            <td style="text-align: center;">75</td>
+                            <td style="text-align: center;">110</td>
+                            <td style="text-align: center;"><strong>185</strong></td>
+                        </tr>
+                        <tr>
+                            <td>🔧 ช่างยนต์</td>
+                            <td style="text-align: center;">70</td>
+                            <td style="text-align: center;">95</td>
+                            <td style="text-align: center;"><strong>165</strong></td>
+                        </tr>
+                        <tr>
+                            <td>🏨 การโรงแรม</td>
+                            <td style="text-align: center;">60</td>
+                            <td style="text-align: center;">90</td>
+                            <td style="text-align: center;"><strong>150</strong></td>
+                        </tr>
+                        <tr>
+                            <td>📊 การบัญชี</td>
+                            <td style="text-align: center;">50</td>
+                            <td style="text-align: center;">85</td>
+                            <td style="text-align: center;"><strong>135</strong></td>
+                        </tr>
+                        <tr>
+                            <td>🎨 คอมพิวเตอร์กราฟิก</td>
+                            <td style="text-align: center;">45</td>
+                            <td style="text-align: center;">80</td>
+                            <td style="text-align: center;"><strong>125</strong></td>
+                        </tr>
+                        <tr>
+                            <td>📱 การตลาดออนไลน์</td>
+                            <td style="text-align: center;">40</td>
+                            <td style="text-align: center;">90</td>
+                            <td style="text-align: center;"><strong>130</strong></td>
+                        </tr>
+                        <tr>
+                            <td>📡 อิเล็กทรอนิกส์</td>
+                            <td style="text-align: center;">25</td>
+                            <td style="text-align: center;">80</td>
+                            <td style="text-align: center;"><strong>105</strong></td>
+                        </tr>
+                        <tr style="background-color: #e8f4f8; font-weight: bold;">
+                            <td><strong>รวมทั้งหมด</strong></td>
+                            <td style="text-align: center;"><strong>450</strong></td>
+                            <td style="text-align: center;"><strong>750</strong></td>
+                            <td style="text-align: center;"><strong>1,200</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- กิจกรรมนักเรียน -->
+            <h3 class="text-center" style="color: #1e3c72; font-size: 28px; margin: 60px 0 30px 0;">🎯 กิจกรรมและชมรมนักเรียน</h3>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div style="font-size: 80px;">⚽</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>กิจกรรมกีฬา</h3>
+                        <p>ฟุตบอล, บาสเกตบอล, วอลเลย์บอล, แบดมินตัน, ตะกร้อ และกรีฑา</p>
+                        <p style="margin-top: 10px;"><strong>จำนวนสมาชิก:</strong> 350+ คน</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div style="font-size: 80px;">🎨</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>ชมรมศิลปะ</h3>
+                        <p>จิตรกรรม, ประติมากรรม, ดนตรี, นาฏศิลป์ และการแสดง</p>
+                        <p style="margin-top: 10px;"><strong>จำนวนสมาชิก:</strong> 180+ คน</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div style="font-size: 80px;">💻</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>ชมรมคอมพิวเตอร์</h3>
+                        <p>โปรแกรมมิ่ง, Graphic Design, Web Development และ AI</p>
+                        <p style="margin-top: 10px;"><strong>จำนวนสมาชิก:</strong> 220+ คน</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div style="font-size: 80px;">📚</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>ชมรมวิชาการ</h3>
+                        <p>คณิตศาสตร์, วิทยาศาสตร์, ภาษาอังกฤษ และ Debate</p>
+                        <p style="margin-top: 10px;"><strong>จำนวนสมาชิก:</strong> 150+ คน</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <div style="font-size: 80px;">🎬</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>ชมรมสื่อและประชาสัมพันธ์</h3>
+                        <p>ถ่ายภาพ, วีดีโอ, พิธีกร และสื่อสิ่งพิมพ์</p>
+                        <p style="margin-top: 10px;"><strong>จำนวนสมาชิก:</strong> 120+ คน</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <div style="font-size: 80px;">🌱</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>ชมรมอาสาและสิ่งแวดล้อม</h3>
+                        <p>จิตอาสา, รักษ์สิ่งแวดล้อม และกิจกรรมสาธารณประโยชน์</p>
+                        <p style="margin-top: 10px;"><strong>จำนวนสมาชิก:</strong> 200+ คน</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ผลงานที่โดดเด่น -->
+            <h3 class="text-center" style="color: #1e3c72; font-size: 28px; margin: 60px 0 30px 0;">🏆 ผลงานและรางวัลที่โดดเด่น</h3>
+            
+            <div class="news-section">
+                <div class="news-item">
+                    <h3>🥇 รางวัลชนะเลิศการแข่งขันทักษะคอมพิวเตอร์ระดับชาติ</h3>
+                    <p class="date">📅 มกราคม 2567</p>
+                    <p><strong>นักเรียน:</strong> นายเทคโน โปรแกรม (ปวส.2 คอมพิวเตอร์ธุรกิจ)</p>
+                    <p>คว้ารางวัลชนะเลิศการแข่งขัน Techno Skill Competition 2024 สาขา Web Development</p>
+                </div>
+
+                <div class="news-item">
+                    <h3>🥈 รองชนะเลิศอันดับ 1 การแข่งขันหุ่นยนต์</h3>
+                    <p class="date">📅 ธันวาคม 2566</p>
+                    <p><strong>ทีม:</strong> หุ่นยนต์อัจฉริยะ (ปวส.2 ช่างไฟฟ้า)</p>
+                    <p>ได้รับรางวัลรองชนะเลิศอันดับ 1 งาน Thailand Robot Competition</p>
+                </div>
+
+                <div class="news-item">
+                    <h3>🥉 รางวัลชมเชย การแข่งขันทักษะธุรกิจ</h3>
+                    <p class="date">📅 พฤศจิกายน 2566</p>
+                    <p><strong>นักเรียน:</strong> น.ส.วรรณา การตลาด (ปวส.1 การตลาดออนไลน์)</p>
+                    <p>ได้รับรางวัลชมเชยการแข่งขัน Digital Marketing Challenge</p>
+                </div>
+
+                <div class="news-item">
+                    <h3>🏅 รางวัลความประพฤติดี</h3>
+                    <p class="date">📅ตุลาคม 2566</p>
+                    <p><strong>นักเรียน:</strong> นายดีเด่น ตัวอย่าง (ปวช.3 การบัญชี)</p>
+                    <p>ได้รับรางวัลนักเรียนที่มีความประพฤติดีเยี่ยม ระดับจังหวัด</p>
+                </div>
+            </div>
+
+            <!-- บรรยากาศการเรียน -->
+            <h3 class="text-center" style="color: #1e3c72; font-size: 28px; margin: 60px 0 30px 0;">📸 บรรยากาศการเรียนและกิจกรรม</h3>
+            
+            <div class="gallery">
+                <div class="gallery-item" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=400') center/cover;">
+                    <span>ห้องเรียนปฏิบัติการ</span>
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=400') center/cover;">
+                    <span>กิจกรรมนักเรียน</span>
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=400') center/cover;">
+                    <span>กิจกรรมกีฬาสี</span>
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1544717305-2782549b5136?w=400') center/cover;">
+                    <span>งานแสดงผลงาน</span>
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1509062522246-3755977927d7?w=400') center/cover;">
+                    <span>กิจกรรมพัฒนาทักษะ</span>
+                </div>
+                <div class="gallery-item" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400') center/cover;">
+                    <span>โครงการสหกิจศึกษา</span>
+                </div>
+            </div>
+
+            <!-- สวัสดิการนักเรียน -->
+            <h3 class="text-center" style="color: #1e3c72; font-size: 28px; margin: 60px 0 30px 0;">💝 สวัสดิการและสิทธิประโยชน์</h3>
+            
+            <div class="info-section">
+                <div class="info-box">
+                    <div style="font-size: 48px; margin-bottom: 15px;">📚</div>
+                    <h3>ทุนการศึกษา</h3>
+                    <p>ทุนเรียนดี, ทุนกีฬา, ทุนผู้มีรายได้น้อย และทุนจากบริษัท</p>
+                </div>
+
+                <div class="info-box">
+                    <div style="font-size: 48px; margin-bottom: 15px;">🏥</div>
+                    <h3>ประกันอุบัติเหตุ</h3>
+                    <p>ประกันอุบัติเหตุและสุขภาพสำหรับนักเรียนทุกคน</p>
+                </div>
+
+                <div class="info-box">
+                    <div style="font-size: 48px; margin-bottom: 15px;">🏨</div>
+                    <h3>หอพักนักเรียน</h3>
+                    <p>หอพักภายในสถาบัน ราคาประหยัด มีความปลอดภัย</p>
+                </div>
+
+                <div class="info-box">
+                    <div style="font-size: 48px; margin-bottom: 15px;">🍱</div>
+                    <h3>โรงอาหาร</h3>
+                    <p>อาหารสะอาด ราคาถูก คุณภาพดี หลากหลายเมนู</p>
+                </div>
+
+                <div class="info-box">
+                    <div style="font-size: 48px; margin-bottom: 15px;">💼</div>
+                    <h3>สหกิจศึกษา</h3>
+                    <p>โครงการฝึกงานในสถานประกอบการชั้นนำ มีค่าตอบแทน</p>
+                </div>
+
+                <div class="info-box">
+                    <div style="font-size: 48px; margin-bottom: 15px;">📖</div>
+                    <h3>ห้องสมุด</h3>
+                    <p>ห้องสมุดทันสมัย หนังสือและสื่อการเรียนรู้ครบครัน</p>
+                </div>
+            </div>
+
+            <!-- คำแนะนำ -->
+            <div style="margin-top: 60px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px; border-radius: 15px; color: white; text-align: center;">
+                <h3 style="font-size: 28px; margin-bottom: 20px;">🎓 สนใจสมัครเรียน?</h3>
+                <p style="font-size: 18px; margin-bottom: 25px; line-height: 1.8;">
+                    เปิดรับสมัครนักเรียนใหม่ ประจำปีการศึกษา 2567<br>
+                    สมัครได้ตั้งแต่วันนี้ - 30 มีนาคม 2567
+                </p>
+                <a href="#" class="btn" style="background: white; color: #667eea; font-size: 18px; padding: 15px 40px;">
+                    สมัครเรียนเลย
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>เกี่ยวกับเรา</h3>
+                    <p>วิทยาลัยเทคโนโลยีชั้นนำ สถาบันการศึกษาที่มุ่งมั่นพัฒนาบุคลากรด้านเทคโนโลยีและอาชีวศึกษา</p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook">f</a>
+                        <a href="#" title="Twitter">𝕏</a>
+                        <a href="#" title="Instagram">📷</a>
+                        <a href="#" title="YouTube">▶</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>เมนูหลัก</h3>
+                    <ul>
+                        <li><a href="index.html">หน้าหลัก</a></li>
+                        <li><a href="administrators.html">ผู้บริหาร</a></li>
+                        <li><a href="personnel.html">บุคลากร</a></li>
+                        <li><a href="students.html">นักเรียน นักศึกษา</a></li>
+                        <li><a href="programs.html">สาขาวิชา</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>ติดต่อเรา</h3>
+                    <p>📍 123 ถนนพัฒนาการ แขวง/เขต กรุงเทพฯ 10250</p>
+                    <p>📞 โทร: 02-xxx-xxxx</p>
+                    <p>📠 แฟกซ์: 02-xxx-xxxx</p>
+                    <p>📧 อีเมล: info@school.ac.th</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>เวลาทำการ</h3>
+                    <p>จันทร์ - พฤหัสบดี<br>08:00 - 16:30 น.</p>
+                    <p>ศุกร์<br>08:00 - 15:30 น.</p>
+                    <p>เสาร์ - อาทิตย์<br>ปิดทำการ</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> วิทยาลัยเทคโนโลยีชั้นนำ. สงวนลิขสิทธิ์.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
