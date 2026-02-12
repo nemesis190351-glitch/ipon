@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ข้อมูลบุคลากรและคณาจารย์">
+    <title>บุคลากร - สถานศึกษาชั้นนำ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">🎓</div>
+                    <div class="school-info">
+                        <h1>วิทยาลัยเทคโนโลยีชั้นนำ</h1>
+                        <p>Leading Technology College</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="index.html">หน้าหลัก</a></li>
+                <li><a href="administrators.html">ผู้บริหาร</a></li>
+                <li><a href="personnel.html" class="active">บุคลากร</a></li>
+                <li><a href="students.html">นักเรียน นักศึกษา</a></li>
+                <li><a href="programs.html">สาขาวิชา</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <h2 class="page-title">👥 บุคลากรและคณาจารย์</h2>
+
+            <div style="background: #f9f9f9; padding: 25px; border-radius: 10px; margin-bottom: 40px; text-align: center;">
+                <p style="font-size: 18px; color: #555;">
+                    วิทยาลัยฯ มีบุคลากรที่มีความรู้ความสามารถ ประสบการณ์ และความเชี่ยวชาญในสาขาวิชาชีพ 
+                    พร้อมถ่ายทอดองค์ความรู้และพัฒนานักเรียนให้มีคุณภาพ
+                </p>
+            </div>
+
+            <!-- สถิติบุคลากร -->
+            <div class="statistics" style="margin-bottom: 50px;">
+                <div class="stat-box">
+                    <div class="number" data-target="85">0</div>
+                    <div class="label">บุคลากรทั้งหมด</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number" data-target="62">0</div>
+                    <div class="label">ครูผู้สอน</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number" data-target="15">0</div>
+                    <div class="label">เจ้าหน้าที่</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number" data-target="8">0</div>
+                    <div class="label">สนับสนุน</div>
+                </div>
+            </div>
+
+            <!-- ครูสายสามัญ -->
+            <h3 style="color: #1e3c72; font-size: 26px; margin: 40px 0 25px 0; padding-bottom: 10px; border-bottom: 3px solid #2a5298;">
+                📚 ครูสายสามัญ (General Education)
+            </h3>
+
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div style="font-size: 80px;">👨‍🏫</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์สมศักดิ์ ภาษาไทย</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 8</p>
+                        <p class="subject">📖 วิชาภาษาไทย</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท ภาษาไทย<br>มหาวิทยาลัยศรีนครินทรวิโรฒ</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div style="font-size: 80px;">👩‍🏫</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์สุภา คณิตศาสตร์</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 8</p>
+                        <p class="subject">🔢 วิชาคณิตศาสตร์</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท คณิตศาสตร์ประยุกต์<br>มหาวิทยาลัยเกษตรศาสตร์</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div style="font-size: 80px;">👨‍🏫</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์วิชัย วิทยาศาสตร์</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 7</p>
+                        <p class="subject">🔬 วิชาวิทยาศาสตร์</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท ฟิสิกส์<br>มหาวิทยาลัยมหิดล</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div style="font-size: 80px;">👩‍🏫</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์นภา ภาษาอังกฤษ</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 8</p>
+                        <p class="subject">🌐 วิชาภาษาอังกฤษ</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท การสอนภาษาอังกฤษ<br>มหาวิทยาลัยธรรมศาสตร์</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <div style="font-size: 80px;">👨‍🏫</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์ประวิทย์ สังคม</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 7</p>
+                        <p class="subject">🌍 วิชาสังคมศึกษา</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท ประวัติศาสตร์<br>มหาวิทยาลัยศิลปากร</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <div style="font-size: 80px;">👩‍🏫</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์สุดา พลศึกษา</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 6</p>
+                        <p class="subject">⚽ วิชาพลศึกษา</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาตรี พลศึกษา<br>มหาวิทยาลัยศรีนครินทรวิโรฒ</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ครูสายอาชีพ -->
+            <h3 style="color: #1e3c72; font-size: 26px; margin: 60px 0 25px 0; padding-bottom: 10px; border-bottom: 3px solid #2a5298;">
+                💼 ครูสายอาชีพ (Vocational Education)
+            </h3>
+
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div style="font-size: 80px;">👨‍💻</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์ชัยวัฒน์ เทคโนโลยี</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 9</p>
+                        <p class="subject">💻 วิชาคอมพิวเตอร์ธุรกิจ</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท วิทยาการคอมพิวเตอร์<br>มหาวิทยาลัยเกษตรศาสตร์</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div style="font-size: 80px;">👩‍💻</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์ปรียา โปรแกรม</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 8</p>
+                        <p class="subject">⌨️ วิชาการเขียนโปรแกรม</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท วิศวกรรมซอฟต์แวร์<br>สถาบันเทคโนโลยีพระจอมเกล้าฯ</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div style="font-size: 80px;">👨‍🔧</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์สมชาย ช่างยนต์</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 8</p>
+                        <p class="subject">🔧 วิชาช่างยนต์</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท วิศวกรรมเครื่องกล<br>จุฬาลงกรณ์มหาวิทยาลัย</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div style="font-size: 80px;">👩‍🔧</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์วิไล ไฟฟ้า</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 7</p>
+                        <p class="subject">⚡ วิชาช่างไฟฟ้า</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท วิศวกรรมไฟฟ้า<br>มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <div style="font-size: 80px;">👨‍🍳</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์ประกิต การโรงแรม</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 7</p>
+                        <p class="subject">🏨 วิชาการโรงแรม</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท การจัดการโรงแรม<br>มหาวิทยาลัยธุรกิจบัณฑิตย์</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <div style="font-size: 80px;">👩‍💼</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์สุนันท์ บัญชี</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 8</p>
+                        <p class="subject">📊 วิชาการบัญชี</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท การบัญชี<br>มหาวิทยาลัยธรรมศาสตร์</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                        <div style="font-size: 80px;">👨‍🎨</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์ศิลป์ ดีไซน์</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 7</p>
+                        <p class="subject">🎨 วิชาคอมพิวเตอร์กราฟิก</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท ศิลปกรรม<br>มหาวิทยาลัยศิลปากร</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">
+                        <div style="font-size: 80px;">👩‍💼</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>อาจารย์วรรณา การตลาด</h3>
+                        <p class="position">ครูวิชาชีพ ระดับ 7</p>
+                        <p class="subject">📱 วิชาการตลาดออนไลน์</p>
+                        <p style="margin-top: 10px; color: #666;">ปริญญาโท บริหารธุรกิจ (การตลาด)<br>มหาวิทยาลัยกรุงเทพ</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- เจ้าหน้าที่สนับสนุน -->
+            <h3 style="color: #1e3c72; font-size: 26px; margin: 60px 0 25px 0; padding-bottom: 10px; border-bottom: 3px solid #2a5298;">
+                🏢 เจ้าหน้าที่สนับสนุน (Support Staff)
+            </h3>
+
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                        <div style="font-size: 80px;">👨‍💼</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>นายสมบัติ ทะเบียน</h3>
+                        <p class="position">หัวหน้างานทะเบียน</p>
+                        <p class="subject">📋 งานทะเบียนและวัดผล</p>
+                        <p style="margin-top: 10px; color: #666;">รับผิดชอบระบบทะเบียน<br>การลงทะเบียน และวัดผลประเมินผล</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                        <div style="font-size: 80px;">👩‍💼</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>นางสาวสุดา การเงิน</h3>
+                        <p class="position">เจ้าหน้าที่การเงิน</p>
+                        <p class="subject">💰 งานการเงินและบัญชี</p>
+                        <p style="margin-top: 10px; color: #666;">รับผิดชอบการเงิน<br>การรับ-จ่าย และบัญชี</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+                        <div style="font-size: 80px;">👨‍💼</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>นายประสาน พัสดุ</h3>
+                        <p class="position">เจ้าหน้าที่พัสดุ</p>
+                        <p class="subject">📦 งานพัสดุและครุภัณฑ์</p>
+                        <p style="margin-top: 10px; color: #666;">รับผิดชอบจัดซื้อ-จัดจ้าง<br>และดูแลครุภัณฑ์</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        <div style="font-size: 80px;">👩‍💼</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>นางสาวนันทนา ห้องสมุด</h3>
+                        <p class="position">บรรณารักษ์</p>
+                        <p class="subject">📚 งานห้องสมุด</p>
+                        <p style="margin-top: 10px; color: #666;">รับผิดชอบห้องสมุด<br>การยืม-คืน และจัดหาหนังสือ</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+                        <div style="font-size: 80px;">👨‍💻</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>นายเทคโน ไอที</h3>
+                        <p class="position">เจ้าหน้าที่ IT</p>
+                        <p class="subject">💻 งานเทคโนโลยีสารสนเทศ</p>
+                        <p style="margin-top: 10px; color: #666;">รับผิดชอบระบบคอมพิวเตอร์<br>เครือข่าย และเว็บไซต์</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                        <div style="font-size: 80px;">👩‍⚕️</div>
+                    </div>
+                    <div class="card-content">
+                        <h3>นางสาวพยาบาล ดูแล</h3>
+                        <p class="position">พยาบาลวิชาชีพ</p>
+                        <p class="subject">🏥 งานสุขภาพและอนามัย</p>
+                        <p style="margin-top: 10px; color: #666;">รับผิดชอบดูแลสุขภาพ<br>นักเรียนและบุคลากร</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ข้อมูลติดต่อ -->
+            <div style="margin-top: 60px; background: #f9f9f9; padding: 30px; border-radius: 10px;">
+                <h3 style="color: #1e3c72; text-align: center; margin-bottom: 25px; font-size: 24px;">📞 ติดต่อแผนกต่างๆ</h3>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>แผนก/งาน</th>
+                            <th>เบอร์ภายใน</th>
+                            <th>อีเมล</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>งานทะเบียน</td>
+                            <td>101</td>
+                            <td>registry@school.ac.th</td>
+                        </tr>
+                        <tr>
+                            <td>งานการเงิน</td>
+                            <td>102</td>
+                            <td>finance@school.ac.th</td>
+                        </tr>
+                        <tr>
+                            <td>งานพัสดุ</td>
+                            <td>103</td>
+                            <td>supply@school.ac.th</td>
+                        </tr>
+                        <tr>
+                            <td>งานห้องสมุด</td>
+                            <td>104</td>
+                            <td>library@school.ac.th</td>
+                        </tr>
+                        <tr>
+                            <td>งาน IT</td>
+                            <td>105</td>
+                            <td>it@school.ac.th</td>
+                        </tr>
+                        <tr>
+                            <td>ห้องพยาบาล</td>
+                            <td>106</td>
+                            <td>health@school.ac.th</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>เกี่ยวกับเรา</h3>
+                    <p>วิทยาลัยเทคโนโลยีชั้นนำ สถาบันการศึกษาที่มุ่งมั่นพัฒนาบุคลากรด้านเทคโนโลยีและอาชีวศึกษา</p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook">f</a>
+                        <a href="#" title="Twitter">𝕏</a>
+                        <a href="#" title="Instagram">📷</a>
+                        <a href="#" title="YouTube">▶</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>เมนูหลัก</h3>
+                    <ul>
+                        <li><a href="index.html">หน้าหลัก</a></li>
+                        <li><a href="administrators.html">ผู้บริหาร</a></li>
+                        <li><a href="personnel.html">บุคลากร</a></li>
+                        <li><a href="students.html">นักเรียน นักศึกษา</a></li>
+                        <li><a href="programs.html">สาขาวิชา</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>ติดต่อเรา</h3>
+                    <p>📍 123 ถนนพัฒนาการ แขวง/เขต กรุงเทพฯ 10250</p>
+                    <p>📞 โทร: 02-xxx-xxxx</p>
+                    <p>📠 แฟกซ์: 02-xxx-xxxx</p>
+                    <p>📧 อีเมล: info@school.ac.th</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>เวลาทำการ</h3>
+                    <p>จันทร์ - พฤหัสบดี<br>08:00 - 16:30 น.</p>
+                    <p>ศุกร์<br>08:00 - 15:30 น.</p>
+                    <p>เสาร์ - อาทิตย์<br>ปิดทำการ</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2024</span> วิทยาลัยเทคโนโลยีชั้นนำ. สงวนลิขสิทธิ์.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
